@@ -108,7 +108,9 @@ body {
     list-style: none;
 }
 
-.content_left_box_vechungtoi {}
+.content_left_box_vechungtoi {
+    border: 1px solid;
+}
 
 .content_left_box_dichvu {
     width: 234px;
@@ -194,15 +196,17 @@ body {
 }
 
 .content_right {
-    width: 706px;
+    width: 704px;
     min-height: 832px;
+    border: 1px solid;
     float: right;
     margin: 20px 20px 50px 0;
 }
 
 .content_right_box_ketqua {
     width: 706px;
-    min-height: 457px;
+    min-height: 385px;
+    border-bottom: 1px solid;
 }
 
 .content_right_box_ketqua_hienthi {

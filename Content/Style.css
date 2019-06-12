@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #e1e1e1;
+    background: #0099FF;
     min-height: 1000px;
 }
 
@@ -220,15 +220,21 @@ body {
 
 .content_right_box_ketqua_ngay {
     width: 242px;
-    height: 411px;
+    height: 456px;
     float: right;
     overflow: hidden;
+    border: 1px solid;
 }
 
 .content_right_box_ketqua_ngay_item {
-    width: 227px;
-    height: 73px;
-    background: #ffd800;
+    background: #fff !important;
+    width: 237px;
+    text-align: center;
+    margin-left: 2px !important;
+    color: #000 !important;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 0px !important;
     -webkit-border-radius: 5px;
     margin-bottom: 6px;
     background: url('Web/bg_ketqua_ngay_item.png') repeat-x;
@@ -296,9 +302,9 @@ body {
 }
 
 .content_right_box_ketqua_tab {
-    width: 706px;
+    width: 460px;
     height: 49px;
-    margin-top: 14px;
+    margin-top: -12px;
     float: left;
     padding: 0;
 }
@@ -380,7 +386,7 @@ body {
     background: url('Web/bg_ketqua_tab3_active.png') no-repeat;
     float: left;
     width: 188px;
-    margin-left: -30px;
+    margin-top: -17px;
 }
 
 .content_right_box_ketqua_tab_3 p {
@@ -613,7 +619,7 @@ a {
 }
 
 .tabnav {
-    width: 706px;
+    width: 460px;
     height: 49px;
     position: absolute;
     list-style: none;
@@ -1364,20 +1370,8 @@ a p:hover {
     margin: 0;
 }
 
-.btn_timkiem {
-    width: 30px;
-    height: 19px;
-    background: url('Web/img_timkiem.png') no-repeat;
-    background-position: center;
-    padding: 0;
-    margin: 0;
-    border: 0;
-    float: left;
-    margin-top: 4px;
-}
-
 .timkiem {
-    margin-left: 10px;
+    margin-left: 300px;
     margin-top: 3px;
     float: left;
 }

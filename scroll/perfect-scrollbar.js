@@ -207,8 +207,8 @@
 
         containerWidth = settings.includePadding ? $this.innerWidth() : $this.width();
         containerHeight = settings.includePadding ? $this.innerHeight() : $this.height();
-        contentWidth = $this.prop('scrollWidth');
-        contentHeight = $this.prop('scrollHeight');
+        // contentWidth = $this.prop('scrollWidth');
+        // contentHeight = $this.prop('scrollHeight');
 
         if (!settings.suppressScrollX && containerWidth + settings.scrollXMarginOffset < contentWidth) {
           scrollbarXActive = true;

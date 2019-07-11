@@ -148,7 +148,7 @@ body {
 }
 
 .content_left_box_item p {
-    color: #8c8c8c;
+    color: #111111;
     line-height: 37px;
     margin-left: 20px;
 }
@@ -241,7 +241,7 @@ body {
 }
 
 .content_right_box_ketqua_ngay_item.active {
-    background: url('Web/bg_ketqua_ngay_item_active.png') repeat-x;
+    background: url('/img/bg_ketqua_ngay_item_active.png') repeat-x !important;
 }
 
 .label_ketqua_hienthi_tieude_loaiketqua {
@@ -339,10 +339,17 @@ body {
 }
 
 .content_right_box_ketqua_tab_1.active {
-    background: url('Web/bg_ketqua_tab1_acitve.png') no-repeat;
+    background: url('/img/bg_ketqua_tab1_acitve.png') no-repeat;
 }
 
 .content_right_box_ketqua_tab_1.active p {
+    color: #ffffff;
+}
+.content_right_box_ketqua_tab_4.active {
+    background: url('/img/bg_ketqua_tab1_acitve.png') no-repeat;
+}
+
+.content_right_box_ketqua_tab_4.active p {
     color: #ffffff;
 }
 

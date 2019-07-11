@@ -1659,12 +1659,12 @@ div.videobox-title a:hover {
 div#ppy1 .ppy-outer {
 	border: 0px;
 	background-color: transparent;
-	width: 216px!important;
+	width: 226px!important;
 	padding: 0px!important;
 	border: 1px #47aede solid;
 	padding: 1px;
+	border-radius: 0;
 }
-
 #ppy1.ppy-active, .ppy-placeholder {
 	width: 220px!important;
 	margin: 0px!important;
@@ -1704,8 +1704,8 @@ div#ppy1 .ppy-stage {
 }
 
 div#ppy1 .ppy-stage img {
-	width: 216px!important;
-	height: 146px!important;
+	width: 225px!important;
+	height: 167px!important;
 	border: 1px white solid!important;
 }
 

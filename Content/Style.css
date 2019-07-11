@@ -412,7 +412,7 @@ body {
 }
 
 .content_right_box_ketqua_tab_4 {
-    width: 185px;
+    width: 245px;
     height: 48px;
     float: left;
     background-image: url('Web/bg_ketqua_tab4.png');
@@ -1103,7 +1103,7 @@ a {
 
 .box_lienket_hinh img {
     width: 234px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .box_trangchu {
